@@ -1,0 +1,8 @@
+{
+  "capsule": "metabolic-modeling",
+  "memory_request": {
+    "min": "4GB",
+    "max": "16GB",
+    "priority": "high"
+  }
+}
