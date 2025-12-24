@@ -1,0 +1,3 @@
+[submodule "templates/wealthbridge-capsule-template"]
+	path = templates/wealthbridge-capsule-template
+	url = git@github.com:Influwealth/wealthbridge-capsule-template.git
