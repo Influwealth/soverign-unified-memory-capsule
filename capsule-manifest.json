@@ -1,10 +1,17 @@
-
-## Who This Is For
-- Developers  
-- Youth learners  
-- Sovereign mesh operators  
-- Educators  
-- Partners and collaborators  
-
-## Next Steps
-See `/docs/overview.md` for a high-level explanation.
+{
+  "capsule_name": "Sovereign Unified Memory Capsule",
+  "capsule_id": "sumc",
+  "version": "0.1.0",
+  "description": "A sovereign, software-defined memory fabric for WealthBridge OS.",
+  "qnet_lane": 3,
+  "dependencies": [
+    "vaultgemma",
+    "observability",
+    "rewards",
+    "qpu-adapter"
+  ],
+  "entrypoints": {
+    "daemon": "src/mesh-daemon/",
+    "scheduler": "src/memory-scheduler/"
+  }
+}
